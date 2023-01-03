@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+:root{
+    --highLight: #a3ff7e;
+    --btnColor: #D6FF79;
+}
+
+.highLight {
+    color: var(--highLight);
+    font-weight: 700;
+}
+
+.titleCon {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.IntroBtn {
+    width: 40%;
+    height: 50%;
+}
+
+.IntroBtn > * {
+    padding: 0 10px;
+    transition-duration: 0.21s;
+}
+
+.IntroBtn:hover .RightArrow {
+    transition-duration: 0.21s;
+    transform: rotate(90deg);
+}   
+
+.IntroBtn: .RightArrow {
+    transition-duration: 0.21s;
+    transform: rotate(90deg);
+}
+
+.titleRow {
+    display: flex;
+    justify-content: center;
+}
+
+.IntroText {
+    font-family: 'Rubik+Moonrocks', sans-serif;
+}

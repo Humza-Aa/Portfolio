@@ -1,0 +1,15 @@
+:root {
+  --text: #0A1128;
+  --figures: #001F54;
+  --test: #034078;
+  --PB: #1282A2;
+  --we: #FEFCFB;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: var(--text);
+  color: white;
+}

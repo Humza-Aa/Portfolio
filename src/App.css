@@ -10,6 +10,6 @@ html,
 body {
   height: 100vh;
   margin: 0;
-  background-color: var(--text);
   color: white;
+  scroll-behavior: smooth;
 }

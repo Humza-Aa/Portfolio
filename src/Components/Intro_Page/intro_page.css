@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: var(--text);
 }
 
 .IntroBtn {
@@ -32,11 +33,6 @@
     transition-duration: 0.21s;
     transform: rotate(90deg);
 }   
-
-.IntroBtn: .RightArrow {
-    transition-duration: 0.21s;
-    transform: rotate(90deg);
-}
 
 .titleRow {
     display: flex;

@@ -1,8 +1,35 @@
-.header_main {
-    height: 60px;
-    background-color: white;
-    /* color: white; */
+.LinksHeader {
+  background-color: black;
+  font-size: 20px;
+  padding: 10px 6% !important;
+  display: flex;
+  position: sticky;
+  top: 0;
+  border-bottom: solid 3px #0aff12;
 }
 
+.LinksHeader > * {
+  color: inherit;
+  padding: 0 14px;
+  text-decoration: none;
+}
 
+.LinksHeader > a:hover {
+  color: var(--highLight);
+}
+@keyframes headerlinkbar {
+  from {
+    border-bottom: 0;
+  }
+  to {
+    border-bottom: 4px solid #0aff12;
+  }
+}
 
+.ActiveLink {
+  color: var(--highLight);
+  padding-bottom: 4px;
+  border-bottom: 4px solid #0aff12;
+  border-radius: 8px;
+  animation: headerlinkbar 0.2s linear;
+}

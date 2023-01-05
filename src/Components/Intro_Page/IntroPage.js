@@ -12,7 +12,7 @@ export default function Intro_Page() {
             Hello, I'm <span className="highLight">Humza Aamir</span> <br />
             I'm a full-stack web developer
           </h1>
-          <Button className="IntroBtn" variant="outline-secondary">
+          <Button href="#AboutSection"  className="IntroBtn" variant="outline-secondary">
             Learn more about me
             <FontAwesomeIcon className="RightArrow" icon={faArrowRight} />
           </Button>{" "}

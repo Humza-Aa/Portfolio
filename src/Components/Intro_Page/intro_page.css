@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
-:root{
-    --highLight: #a3ff7e;
-    --btnColor: #D6FF79;
-}
-
 .highLight {
     color: var(--highLight);
     font-weight: 700;

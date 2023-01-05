@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useEffect } from "react";
 import "./header.css";
 // import profilePic from "./images/profilepic.JPG";
@@ -21,11 +21,11 @@ export default function Header() {
         <a href="#titleCon">
           <div className="HeaderL ActiveLink">Home</div>
         </a>
-        <a href="#LinksHeader">
+        <a href="#AboutSection">
           <div className="HeaderL">About</div>
         </a>
-        <a href="#LinksHeader">
-          <div className="HeaderL">Skills</div>
+        <a href="#ProjectCont">
+          <div className="HeaderL">Projects</div>
         </a>
         <a href="#LinksHeader">
           <div className="HeaderL">Contact</div>

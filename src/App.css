@@ -1,9 +1,8 @@
 :root {
   --text: #0A1128;
-  --figures: #001F54;
-  --test: #034078;
-  --PB: #1282A2;
-  --we: #FEFCFB;
+  --highLight: #a3ff7e;
+  --btnColor: #D6FF79;
+  --AboutPageBg: #2B303A;
 }
 
 html,
@@ -12,4 +11,5 @@ body {
   margin: 0;
   color: white;
   scroll-behavior: smooth;
+  min-width: fit-content;
 }

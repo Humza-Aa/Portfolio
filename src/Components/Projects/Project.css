@@ -1,0 +1,27 @@
+.MainContainer {
+    height: 100vh;
+    background-color: #363e50;
+    padding: 90px 20px 20px 20px;
+    /* display: flex; */
+}
+
+.ProjectTitleCont {
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectTitleDiv {
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.ProjectTitleDiv {
+    border-bottom: 2px solid var(--highLight);
+}
+
+
+.ProjectTitleDiv > h2 {
+    width: fit-content;
+    /* margin: 0 0 15px 100%; */
+}

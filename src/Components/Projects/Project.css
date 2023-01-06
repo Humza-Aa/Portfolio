@@ -1,27 +1,107 @@
 .MainContainer {
-    height: 100vh;
-    background-color: #363e50;
-    padding: 90px 20px 20px 20px;
-    /* display: flex; */
+  height: fit-content;
+  /* width: 100vw; */
+  background-color: #363e50;
+  padding: 90px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .ProjectTitleCont {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .ProjectTitleDiv {
-    height: fit-content;
-    width: fit-content;
+  height: fit-content;
+  width: fit-content;
 }
-
 
 .ProjectTitleDiv {
-    border-bottom: 2px solid var(--highLight);
+  border-bottom: 2px solid var(--highLight);
+  padding: 0 0 5px 0;
 }
-
 
 .ProjectTitleDiv > h2 {
-    width: fit-content;
-    /* margin: 0 0 15px 100%; */
+  width: fit-content;
+  /* margin: 0 0 15px 100%; */
+}
+
+.ProjectsContainer {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ProjectsContainer > div {
+    padding: 10px;
+}
+
+.ProjectTemplate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: green;
+  height: 35vh;
+  width: 30vw;
+  background-image: url("https://images.unsplash.com/photo-1672862817339-51ef2610a5d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1209&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.ProjectTemplate:hover {
+  height: 35.5vh;
+  width: 30.5vw;
+  -webkit-box-shadow: 1px 1px 15px 5px #000000;
+  box-shadow: 1px 1px 15px 5px #000000;
+}
+
+.ProjectNameDiv {
+  padding: 20px;
+}
+
+.ProjectInfo {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #363e50b0;
+}
+
+.ToolsList {
+  display: flex;
+  margin: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  margin: 0 10px 0 10px;
+  font-weight: 700px;
+}
+
+ol:first-child {
+  margin: 0 0 0 10px;
+}
+
+.SourceOut {
+  background-color: transparent;
+  border: transparent;
+  padding: 0 10px;
+  width: 45px;
+}
+
+.PageLinkIcon {
+  color: white;
+}
+
+.GithubLink {
+  fill: white;
 }

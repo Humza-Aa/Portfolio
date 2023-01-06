@@ -3,12 +3,56 @@
         "ProjectName": "Library",
         "Languages": ["JavaScript", "HTML", "CSS"],
         "ProjectLink": "https://humza-aa.github.io/Library/",
-        "GithubLink": "https://github.com/Humza-Aa/Library"
+        "GithubLink": "https://github.com/Humza-Aa/Library",
+        "image": "/Project_images/Library.png"
     },
     {
-        "ProjectName": "Choss",
+        "ProjectName": "Pixel-Sketch",
         "Languages": ["JavaScript", "HTML", "CSS"],
-        "ProjectLink": "https://humza-aa.github.io/Library/",
-        "GithubLink": "https://github.com/Humza-Aa/Library"
+        "ProjectLink": "https://humza-aa.github.io/ETCH-A-SKETCH/",
+        "GithubLink": "https://github.com/Humza-Aa/ETCH-A-SKETCH",
+        "image": "/Project_images/Pixel-Sketch.png"
+    },
+    {
+        "ProjectName": "Task Manager",
+        "Languages": ["JavaScript", "CSS"],
+        "ProjectLink": "https://humza-aa.github.io/Todo_List/",
+        "GithubLink": "https://github.com/Humza-Aa/Todo_List",
+        "image": "/Project_images/Task_Manager.png"
+    },
+    {
+        "ProjectName": "Recollection",
+        "Languages": ["JavaScript", "CSS", "HTML"],
+        "ProjectLink": "https://humza-aa.github.io/Memory-Card/",
+        "GithubLink": "https://github.com/Humza-Aa/Memory-Card",
+        "image": "/Project_images/Recollection.png"
+    },
+    {
+        "ProjectName": "CV-Gen",
+        "Languages": ["React", "JavaScript", "HTML/CSS"],
+        "ProjectLink": "https://humza-aa.github.io/CV-Project/",
+        "GithubLink": "https://github.com/Humza-Aa/CV-Project",
+        "image": "/Project_images/CV-Gen.png"
+    },
+    {
+        "ProjectName": "Tic-Tac-Toe",
+        "Languages": ["JavaScript", "CSS", "HTML"],
+        "ProjectLink": "https://humza-aa.github.io/Tic-Tac-Toe_2.0/",
+        "GithubLink": "https://github.com/Humza-Aa/Tic-Tac-Toe_2.0",
+        "image": "/Project_images/TTT.png"
+    },
+    {
+        "ProjectName": "Rock Paper Scissors",
+        "Languages": ["JavaScript", "CSS", "HTML"],
+        "ProjectLink": "https://humza-aa.github.io/Rock-Paper-Scissors/",
+        "GithubLink": "https://github.com/Humza-Aa/Rock-Paper-Scissors",
+        "image": "/Project_images/RPS.png"
+    },
+    {
+        "ProjectName": "Static Dashboard",
+        "Languages": ["JavaScript", "CSS", "HTML"],
+        "ProjectLink": "https://humza-aa.github.io/Admin-Dashboard/",
+        "GithubLink": "https://github.com/Humza-Aa/Admin-Dashboard",
+        "image": "/Project_images/SDB.png"
     }
 ]

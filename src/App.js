@@ -5,6 +5,7 @@ import Header from "./Components/header/Header";
 import IntroPage from "./Components/Intro_Page/IntroPage";
 import About from "./Components/About/About";
 import Project from "./Components/Projects/Project";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <About />
       <Project />
+      <Contact />
     </>
   );
 }

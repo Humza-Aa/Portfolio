@@ -1,0 +1,26 @@
+.ContactCont {
+    height: fit-content;
+    min-height: 45vw;
+    background-color: var(--AboutPageBg);
+    padding: 90px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ContactTitleCont{
+    display: flex;
+    justify-content: center;
+}
+
+.ContactTitleDiv {
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 2px solid var(--highLight);
+    padding: 0 0 5px 0;
+}
+
+.ContactTitleDiv > h4 {
+    margin: 0;
+}

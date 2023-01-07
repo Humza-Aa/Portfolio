@@ -27,7 +27,7 @@ export default function Header() {
         <a href="#ProjectCont">
           <div className="HeaderL">Projects</div>
         </a>
-        <a href="#LinksHeader">
+        <a href="#ContactCont">
           <div className="HeaderL">Contact</div>
         </a>
       </Container>

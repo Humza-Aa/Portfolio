@@ -17,9 +17,6 @@
 .ProjectTitleDiv {
   height: fit-content;
   width: fit-content;
-}
-
-.ProjectTitleDiv {
   border-bottom: 2px solid var(--highLight);
   padding: 0 0 5px 0;
 }

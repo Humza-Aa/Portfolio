@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--text);
+    /* background-color: var(--text); */
 }
 
 .IntroBtn {

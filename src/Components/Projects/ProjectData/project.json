@@ -28,7 +28,7 @@
         "image": "/Project_images/Recollection.png"
     },
     {
-        "ProjectName": "CV-Gen",
+        "ProjectName": "Resume Generator",
         "Languages": ["React", "JavaScript", "HTML/CSS"],
         "ProjectLink": "https://humza-aa.github.io/CV-Project/",
         "GithubLink": "https://github.com/Humza-Aa/CV-Project",

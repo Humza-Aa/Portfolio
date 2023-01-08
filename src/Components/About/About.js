@@ -14,14 +14,15 @@ export default function About() {
           </div>
           <div className="AboutText">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-              eligendi animi provident et qui alias natus error dolorem,
-              obcaecati corrupti! Numquam nostrum repudiandae magnam ipsum
-              blanditiis iure hic, sint fugit. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Minima odit corporis libero
-              reprehenderit recusandae tempora porro itaque facilis dolorem
-              temporibus magni culpa ullam, quae quo non id aliquid distinctio
-              quas.
+              Hi there! My name is Humza and I am a fourth-year Computer Engineering
+              student at York University, I have developed a strong foundation
+              in web development over the past year. I have gained experience in
+              designing and building static single page applications, as well as
+              creating responsive and interactive full stack applications. I
+              have had the privilege of working as a web developer at Excel
+              Lassonde, a major club at York University, and am excited to be
+              pursuing an internship as a full stack developer at Project Human
+              City.
             </p>
             <div>
               <p>Some Tools I use on a daily basics:</p>
@@ -37,7 +38,7 @@ export default function About() {
                   <ol>
                     <li>MongoDB</li>
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>CSS/Sass</li>
                   </ol>
                 </div>
               </div>

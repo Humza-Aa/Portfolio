@@ -10,9 +10,7 @@ export default function Projects() {
   };
 
   const renderLanguages = (language) => {
-    return(
-      <li>{language}</li>
-    )
+    return <li>{language}</li>;
   };
 
   const renderProjects = (projectData) => {
@@ -21,29 +19,38 @@ export default function Projects() {
     const githubLink = projectData.GithubLink;
     const languages = projectData.Languages;
     const image = projectData.image;
+    const mystyle = {
+      backgroundImage: `url(${process.env.PUBLIC_URL + image})`,
+    };
     return (
       <>
-        <div className="ProjectTemplate" style={{
-          backgroundImage: `url(${image})` 
-        }}>
+        <div className="ProjectTemplate" style={mystyle}>
           <div className="ProjectNameDiv">
             <h4>{projectName}</h4>
           </div>
           <div className="ProjectInfo">
             <div>
-              <ol className="ToolsList">
-                {languages.map(renderLanguages)}
-              </ol>
+              <ol className="ToolsList">{languages.map(renderLanguages)}</ol>
             </div>
             <div>
-              <button className="SourceOut" onClick={() => {openLink(projectLink)}}>
+              <button
+                className="SourceOut"
+                onClick={() => {
+                  openLink(projectLink);
+                }}
+              >
                 <FontAwesomeIcon
                   className="PageLinkIcon"
                   icon={faArrowUpRightFromSquare}
                 />
               </button>
 
-              <button className="SourceOut" onClick={() => {openLink(githubLink)}}>
+              <button
+                className="SourceOut"
+                onClick={() => {
+                  openLink(githubLink);
+                }}
+              >
                 <svg viewBox="0 0 150 150">
                   <g fill="white">
                     <path
